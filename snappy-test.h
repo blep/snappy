@@ -132,7 +132,7 @@ namespace File {
 }  // namespace File
 
 namespace file {
-  int Defaults() { }
+  int Defaults() { return 1; }
 
   class DummyStatus {
    public:
